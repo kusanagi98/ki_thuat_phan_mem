@@ -17,18 +17,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/welcome"
-            android:textSize="20dp" />
+            android:textSize="30dp"
+            android:textColor="@color/White"/>
 
         <TextView
             android:id="@+id/name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            android:textColor="@color/lbl_name"
+            android:textColor="@color/White"
             android:textSize="24dp" />
 
         <TextView
             android:id="@+id/username"
+            android:textColor="@color/Gray"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="13dp" />
@@ -38,10 +40,10 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dip"
-            android:background="@color/btn_logut_bg"
+            android:background="@color/Orange"
             android:text="@string/btn_logout"
             android:textAllCaps="false"
-            android:textColor="@color/white"
+            android:textColor="@color/White"
             android:textSize="15dp" />
     </LinearLayout>
 
